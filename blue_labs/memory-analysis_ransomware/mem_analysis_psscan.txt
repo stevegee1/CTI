@@ -1,0 +1,51 @@
+```
+Volatility 3 Framework 2.27.0
+Progress:  100.00               PDB scanning finished
+PID     PPID    ImageFileName   Offset(V)       Threads Handles SessionId       Wow64   CreateTime      ExitTime        File output
+
+1424    856     dwm.exe 0xbe92b88       3       69      1       False   2021-01-31 18:01:12.000000 UTC  N/A     Disabled
+688     496     svchost.exe     0x1dc0fd40      8       271     0       False   2021-01-31 18:01:11.000000 UTC  N/A     Disabled
+736     496     svchost.exe     0x1dc22520      18      457     0       False   2021-01-31 18:01:11.000000 UTC  N/A     Disabled
+2968    2924    taskhsvc.exe    0x1dc33030      4       102     1       False   2021-01-31 18:02:20.000000 UTC  N/A     Disabled
+856     496     svchost.exe     0x1dc58030      14      307     0       False   2021-01-31 18:01:11.000000 UTC  N/A     Disabled
+896     496     svchost.exe     0x1dc6d548      42      1148    0       False   2021-01-31 18:01:11.000000 UTC  N/A     Disabled
+1000    496     svchost.exe     0x1dc92a88      11      529     0       False   2021-01-31 18:01:11.000000 UTC  N/A     Disabled
+1068    496     svchost.exe     0x1dca9030      16      470     0       False   2021-01-31 18:01:12.000000 UTC  N/A     Disabled
+1196    496     spoolsv.exe     0x1dcd6030      14      277     0       False   2021-01-31 18:01:12.000000 UTC  N/A     Disabled
+2204    496     svchost.exe     0x1dcd91c8      11      143     0       False   2021-01-31 18:03:14.000000 UTC  N/A     Disabled
+1252    496     svchost.exe     0x1dd07290      19      332     0       False   2021-01-31 18:01:12.000000 UTC  N/A     Disabled
+1348    496     taskhost.exe    0x1dd32cb0      8       157     1       False   2021-01-31 18:01:12.000000 UTC  N/A     Disabled
+404     388     csrss.exe       0x1df45030      10      199     1       False   2021-01-31 18:01:11.000000 UTC  N/A     Disabled
+2380    496     svchost.exe     0x1df5a450      10      322     0       False   2021-01-31 18:03:15.000000 UTC  N/A     Disabled
+496     396     services.exe    0x1df5f030      8       205     0       False   2021-01-31 18:01:11.000000 UTC  N/A     Disabled
+460     388     winlogon.exe    0x1df63030      3       113     1       False   2021-01-31 18:01:11.000000 UTC  N/A     Disabled
+504     396     lsass.exe       0x1df72958      6       566     0       False   2021-01-31 18:01:11.000000 UTC  N/A     Disabled
+512     396     lsm.exe 0x1df74030      9       135     0       False   2021-01-31 18:01:11.000000 UTC  N/A     Disabled
+2508    496     svchost.exe     0x1df975b0      5       87      0       False   2021-01-31 18:21:28.000000 UTC  N/A     Disabled
+2976    404     conhost.exe     0x1dfc25f8      1       33      1       False   2021-01-31 18:02:20.000000 UTC  N/A     Disabled
+3304    496     powercfg.exe    0x1dfcf108      0       -       0       False   2021-01-31 18:23:23.000000 UTC  2021-01-31 18:24:24.000000 UTC  Disabled
+620     496     svchost.exe     0x1dfe2b08      12      364     0       False   2021-01-31 18:01:11.000000 UTC  N/A     Disabled
+356     340     csrss.exe       0x1e178968      9       512     0       False   2021-01-31 18:01:11.000000 UTC  N/A     Disabled
+396     340     wininit.exe     0x1e1801f8      3       75      0       False   2021-01-31 18:01:11.000000 UTC  N/A     Disabled
+4060    2732    taskdl.exe      0x1e992a88      0       -       1       False   2021-01-31 18:24:54.000000 UTC  2021-01-31 18:24:54.000000 UTC  Disabled
+1296    620     WmiPrvSE.exe    0x1ec3ea58      10      202     0       False   2021-01-31 18:01:14.000000 UTC  N/A     Disabled
+2032    496     svchost.exe     0x1ec424a0      6       92      0       False   2021-01-31 18:01:13.000000 UTC  N/A     Disabled
+1740    496     dllhost.exe     0x1ec81d40      13      194     0       False   2021-01-31 18:01:14.000000 UTC  N/A     Disabled
+3008    2232    SearchFilterHo  0x1ed0a030      5       108     0       False   2021-01-31 18:23:00.000000 UTC  N/A     Disabled
+208     620     WmiPrvSE.exe    0x1ed3d940      8       120     0       False   2021-01-31 18:24:23.000000 UTC  N/A     Disabled
+2304    2232    SearchProtocol  0x1ed5ead8      8       449     0       False   2021-01-31 18:01:18.000000 UTC  N/A     Disabled
+1456    1408    explorer.exe    0x1ee6a030      26      765     1       False   2021-01-31 18:01:12.000000 UTC  N/A     Disabled
+1560    496     VGAuthService.  0x1ee80a48      3       83      0       False   2021-01-31 18:01:12.000000 UTC  N/A     Disabled
+1688    1456    vm3dservice.ex  0x1eef9d40      2       44      1       False   2021-01-31 18:01:12.000000 UTC  N/A     Disabled
+1700    1456    vmtoolsd.exe    0x1ef04498      8       218     1       False   2021-01-31 18:01:12.000000 UTC  N/A     Disabled
+1720    496     vmtoolsd.exe    0x1ef11030      10      278     0       False   2021-01-31 18:01:13.000000 UTC  N/A     Disabled
+2044    496     msdtc.exe       0x1ef28a78      12      148     0       False   2021-01-31 18:01:16.000000 UTC  N/A     Disabled
+2688    2732    @WanaDecryptor  0x1ef9ed40      0       -       1       False   2021-01-31 18:24:49.000000 UTC  2021-01-31 18:24:49.000000 UTC  Disabled
+268     4       smss.exe        0x1efb5418      2       29      N/A     False   2021-01-31 18:01:10.000000 UTC  N/A     Disabled
+2232    496     SearchIndexer.  0x1efc1d40      10      704     0       False   2021-01-31 18:01:18.000000 UTC  N/A     Disabled
+2432    496     sppsvc.exe      0x1fcbc0f0      4       147     0       False   2021-01-31 18:03:14.000000 UTC  N/A     Disabled
+3968    2732    @WanaDecryptor  0x1fcc6800      1       59      1       False   2021-01-31 18:02:48.000000 UTC  N/A     Disabled
+2732    1456    or4qtckT.exe    0x1fcd4350      8       79      1       False   2021-01-31 18:02:16.000000 UTC  N/A     Disabled
+4       0       System  0x1fff1c40      65      -       N/A     False   2021-01-31 20:56:12.000000 UTC  N/A     Disabled
+4       0       System  0x1fff6920      79      482     N/A     False   2021-01-31 18:01:10.000000 UTC  N/A     Disabled
+```
